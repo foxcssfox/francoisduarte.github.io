@@ -1,0 +1,263 @@
+body{
+	margin: 0;
+	margin: 2% 0;
+	background: grey url(../images/code.jpg) center top no-repeat;
+	background-size: cover;
+	font-family: calibri, sans-serif;
+	background-attachment: fixed;
+}
+.container{
+	width: 946px;
+	background-color: #fff;
+	margin-left : auto;
+	margin-right: auto;
+	border: 1px solid black
+}
+
+.identite{
+	min-height: 50px;
+    display: flex;
+	flex-wrap: wrap;	
+
+}
+.profil{
+	min-height: 50px;
+    display: flex;
+	flex-wrap: wrap;	
+
+}
+.experiences{
+	min-height: 50px;
+    display: flex;
+	flex-wrap: wrap;	
+
+}
+.formation{
+	min-height: 50px;
+    display: flex;
+	flex-wrap: wrap;	
+
+}
+.divers{
+    display: flex;
+	flex-wrap: wrap;
+	overflow:hidden;
+}
+
+
+.profil,
+.experiences,
+.formation{ 
+	background: transparent url(../images/separateur.jpg) center 0 repeat-x;
+	display: flex;
+	flex-wrap:wrap;
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+.divers div.competences{
+	width:286px;
+}
+.divers div.references{
+	width:288px;
+
+}
+.divers div.loisirs{
+	width:286px;
+
+}
+
+
+.rubrique{
+	width: 160px;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.principale{
+	width: 706px;
+	min-height: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	overflow:hidden;
+	margin-bottom: 30px;
+
+}
+
+.rubrique h2{
+	width: 140px;
+}
+.principale .date{
+	width: 160px;
+	margin-right: 20px;
+	color: grey;
+	font-style: italic;
+	text-align: right;
+	min-height: 100%;
+}
+.principale .content{
+	width: 526px;
+}
+.container > div{
+	margin-bottom: 0; /* a définir */
+
+}
+
+article{
+	margin: 40px;
+
+}
+h2{
+	font-family: 'Abel', sans-serif;
+	margin: 0;
+    text-shadow: 2px 2px #ccc;
+
+}
+
+/* **************************
+ BLOC IDENTITE
+****************************** */
+
+.identite > div{
+	margin-top: 30px;
+}
+
+
+.nom{
+	width: 490px;
+	background-color: black;
+	margin-top:20px;
+	height: 130px;
+
+
+}
+.coordonnees{
+	width: 260px;
+	padding : 20px 0 24px 0;
+	margin-left: 20px;
+}
+.coordonnees p{
+	margin: 0;
+
+}
+
+span{
+	font-weight : bold;
+}
+.coordonnees p:nth-child(3){
+	margin-top: 10px;
+
+}
+
+
+.photo{
+	width: 140px;
+	
+	margin-top: 30px;
+	min-height: 100px;
+}
+.photo img{
+	width: 140px;
+	/* border: 1px solid black;
+	border-radius: 90px; */
+
+}
+
+.nom h1{
+	color: white;
+	margin:0;
+	padding:0;
+	font-family: 'Abel', sans-serif;
+	font-weight: normal;
+	margin-left: 40px;
+	margin-right: 40px;
+	text-align: right;
+	padding-top: 20px;
+
+}
+.nom h2{
+	color: white;
+	margin:0;
+	padding:0;
+	font-family: 'Abel', sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	margin-left: 40px;
+		margin-right: 40px;
+	text-align: right;
+	color: grey;
+	line-height: 80%;
+	    text-shadow: 1px 1px #fff;
+	
+}
+
+/* **************************
+ BLOC compétences
+****************************** */
+
+ul, li{
+	margin:0;
+	padding: 0;
+	list-style:none;
+}
+
+li{
+	background: #fff url(../images/puce.jpg) left 7px no-repeat;
+	text-indent: 10px;
+}
+/* **************************
+ BLOC DIVERS
+****************************** */
+.divers{
+		display: flex;
+		flex-wrap: wrap;
+	
+}
+
+
+.bloc1,
+.bloc2,
+.bloc3{
+	padding-top: 10px;
+	background: #fff url(../images/separateur2.jpg) center -7px repeat-x;
+	border-right: 3px solid #ccc;
+	min-height: 200px !important;
+	width: 33%;
+}
+
+.bloc1 article{
+	/* margin:0; */
+	/* padding:0; */
+}
+.bloc3{
+	border-right:none;
+}
+
+
+
+.divers h2{
+	text-align: center;
+	text-indent: 0;
+}
+
+
+/* ************ BLOC loisirs ******** */
+
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.loisir{
+	width: 52px;
+	height: 52px;
+	margin: 4px;
+	border: 0px solid #888888;
+	background-color: #ececec;
+	text-align: center;
+	line-height: 50px;
+	vertical-align: middle;
+	font-size: 2rem;
+}

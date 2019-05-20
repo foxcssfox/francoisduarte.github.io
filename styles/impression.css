@@ -1,0 +1,16 @@
+
+@charset "UTF-8";
+
+@page{
+	size: 21.0cm 29.7cm;
+	margin-top: 2.1cm;
+	margin-bottom: 1.9cm;
+	margin-left: 1.8cm;
+	margin-right: 1.8cm;
+}
+
+/* @page { size: auto; margin: 24mm 14mm 18mm 14mm; } */
+
+header, nav,  footer{
+    display: none;
+}
